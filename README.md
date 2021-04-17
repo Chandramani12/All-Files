@@ -1,2 +1,1 @@
-# All-Files
-Programming Know
+I am Programmer.
