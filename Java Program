@@ -1,4 +1,4 @@
-Array reverse Program using for loop
+1)Array reverse Program using for loop
 package com.info.windows;
 
 public class Reverse 
@@ -14,3 +14,36 @@ public class Reverse
 
 }
 output :4 3 2 1
+
+2)Take size from user and take value from user and print
+package com.info.windows;
+import java.util.*;
+public class Reverse 
+{
+	public static void main(String args[])
+	{
+
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter thr required of size");
+			int size=sc.nextInt();
+			int arr[]=new int[size];
+			System.out.println("Enter the element one by one");
+			for(int i=0;i<size;i++)
+			{
+				arr[i]=sc.nextInt();
+			}
+			System.out.println(Arrays.toString(arr));		
+	}
+	
+}
+
+output:
+Enter thr required of size
+4
+Enter the element one by one
+9
+3
+2
+1
+[9, 3, 2, 1]
+
