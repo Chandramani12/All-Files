@@ -6,3 +6,5 @@ Visual studio is connect sql server if yout find error releated to network sqlco
 First go to  services  start check if solve It is good if not solve 
 SEcond  go to sqlConfiguration open and go inside sql server network configuration inside protocls click right open window check tcp is disabled to enable. and click ok.
 this is solution to solve this problem.
+.Net Framework
+Windows application is not supported Response.Redirect("");
