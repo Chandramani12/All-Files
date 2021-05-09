@@ -1,0 +1,27 @@
+Create database in two ways 
+1)design pattern 
+  solution)right click on database open pop window wite database_name and click ok.
+2)By query
+  solution)create database database_name;
+Note:(only Reading Knowledge)
+     if you create database file.Here create two file.if you want to check thow files
+     1)first which database created than go to click right go to properties and here fil path copy fil path type run command to past open 
+     here seen inside two files 
+     First file--->.MDF and .ldf file
+     MDF(master data file(It contaains actual data file)
+     ldf means Transation file log file( recover data file)
+ 3)If you want to rename database 
+ 1)right click go on rename
+ 2)Query by
+ alter database database_name modify name=new database_name
+ or(Store procedure means improve command there execute the command)
+ or
+ sp_renameDB old_database_name','new_databse_name;
+ 
+ if you want to delete database 
+ there two method 
+ 1) by graphical
+ 2) by query
+ 
+ 2)alter table first_table_name add contstraints first_table_name_column_name_Fk
+ Foreign key(colum_name) reference second_table_name(second column_name(ex.id));
